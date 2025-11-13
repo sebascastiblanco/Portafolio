@@ -20,8 +20,9 @@ import Estudios from "./components/estudios.vue"
         <habilidades />
       </div>
       <experiencia />
-      <estudios />
-
+      <div id="las_tarjetas">
+        <estudios />
+      </div>
   </div>
       
 </template>
