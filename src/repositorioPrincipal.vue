@@ -14,9 +14,11 @@ import Estudios from "./components/estudios.vue"
       
       <perfil />
       <foto />
-      <contacto />
-      <herramientas />
-      <habilidades />
+      <div id="las_tarjetas">
+        <contacto />
+        <herramientas />
+        <habilidades />
+      </div>
       <experiencia />
       <estudios />
 
@@ -26,16 +28,29 @@ import Estudios from "./components/estudios.vue"
 
 <style scoped>
 
+#las_tarjetas {
+
+  display: inline-flex;
+  flex-direction: row;
+  overflow: hidden;
+  flex-wrap: wrap;
+  align-items: space-between;
+
+}
+
 #contenido_principal {
   display: flex;
   flex-direction: column;
   height: auto;
-  width: 80vw;
+  width: 100vw;
   justify-content: center;
   align-items: stretch;
   flex-wrap: wrap;
-  gap: 5rem;
-  background-color: rgb(221, 221, 231);
+  gap: 2rem;
+  background-color: rgb(241, 241, 243);
+  overflow-x: hidden; 
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 

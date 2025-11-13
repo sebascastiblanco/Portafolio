@@ -41,7 +41,7 @@ h2 {
 }
 
 #contacto {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     color: #2e2e2e;
@@ -51,7 +51,7 @@ h2 {
     padding: 20px;
     margin: 2% auto;
 
-    background-color: #ffffff;
+    background-color: #bfdbf1;
     border: 1px solid #ddd;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -60,7 +60,7 @@ h2 {
 
 #contacto:hover {
     transition: transform 0.1s ease;
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 

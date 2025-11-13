@@ -1,7 +1,7 @@
 <template>
 
     <div id="contenido_foto">
-        <img id="foto" src="/public/imagenes/foto.jpg" />
+        <!--<img id="foto" src="/public/imagenes/foto.jpg" />-->
     </div>
 
     <p>Juan Sebastian Castiblanco Ramirez</p>
@@ -22,7 +22,7 @@
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    margin-top: -2rem;
+    margin-top: -10px;
 
     max-width: 200px;
     min-height: 200px;
@@ -36,7 +36,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     align-items: center;
-    margin-top: -4rem;
+    margin-top: -1rem;
 }
 
 </style>
